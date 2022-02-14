@@ -63,5 +63,8 @@ html, body{font-family: 'Oxygen', sans-serif;}
 }
 .tab-content ul li a{display: block; padding: 10px; overflow: hidden;}
 .tab-content ul li a span {display: block; float: left;}
-
+.tab-content ul li{border: 1px solid #777}
 .tab-content ul li a .text{  padding-left: 10px;}
+.box{border: 1px solid #777; width: 960px; height: 160px; margin: 0 auto;
+}
+.box .main_article1{border: 1px solid #777;}
