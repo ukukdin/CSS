@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+*{margin:0; padding: 0; }
+ul,li{list-style: none;}
+a{text-decoration: none;} 
+html, body{font-family: 'Oxygen', sans-serif;}
+/* 전체너비 960px  */
+#main_header{ width: 960px; margin: 0 auto; height: 160px; position: relative;}
+#main_header .title{position: absolute; left: 10px; top: 30px;}
+#main_header .main_gnb{position: absolute; right: 0; top: 0;}
+#main_header .main_lnb{position: absolute; right: 0; bottom: 10px;}
+
+/* 메뉴 */
+.main_gnb ul{overflow: hidden;}
+.main_gnb ul li{float: left;}
+.main_gnb ul li a {
+    display: inline-block;
+    padding: 3px 5px;
+    border: 1px solid #777;
+    
+    
+}
+.main_gnb ul li a:hover{
+    background-color: #333;
+    color: white;
+}
+.main_gnb ul li:nth-child(1) a {border-radius: 8px 0 0 8px;}
+.main_gnb ul li:nth-child(5) a {border-radius: 0 8px 8px 0; }
+
+.main_lnb ul{overflow: hidden;}
+.main_lnb ul li{float: left;}
+.main_lnb ul li a {
+    display: inline-block;
+    padding: 3px 5px;
+    border: 1px solid #777;
+    
+    
+}
+.main_lnb ul li a:hover{
+    background-color: #333;
+    color: white;
+}
+.main_lnb ul li:nth-child(1) a {border-radius: 8px 0 0 8px;}
+.main_lnb ul li:nth-child(5) a {border-radius: 0 8px 8px 0; }
+
+#content {width: 960px; margin: 0 auto;}
+#content .main_section{width: 750px;  float: left;}
+.main_article{border: 1px solid #777;padding: 20px; margin-bottom: 10px;box-sizing: border-box;}
+.main_aside{float: right; width: 200px; border: 1px solid #777;}
+
+.main_article{border: 1px solid #777;padding: 20px; margin-bottom: 10px; box-sizing: border-box;}
+.main_article{border: 1px solid #777; padding: 20px; margin-bottom: 10px; box-sizing: border-box;}
+      
+ 
+ 
+ /* 텝영역 */
+.main_aside .buttons{overflow: hidden;}
+.main_aside .buttons > label{
+    float: left;
+    width: 50%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.tab-content ul li a{display: block; padding: 10px; overflow: hidden;}
+.tab-content ul li a span {display: block; float: left;}
+
+.tab-content ul li a .text{  padding-left: 10px;}

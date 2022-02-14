@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{padding: 0; margin: 0; list-style: none;}
+        .wrap{
+            width: 500px;
+            margin: 0 auto;
+            border: 1px solid #777;
+             position:relative;
+            padding: 10px;}
+
+            .wrap-img{position: absolute;
+            left: 10px;
+            top: 10px;
+            
+        }
+        .wrap-img img{width: 50px;}
+        .wrap-content, .wrap-control{
+            padding-left: 60px;
+        }
+        .wrap-content textarea{
+            width: 100%;
+            box-sizing: border-box;
+            resize: vertical/* none 하면 고정이고 vertical이면 세로만 사이징 가능 */;
+            padding: 10px;
+        }
+        .wrap-control{
+            overflow: hidden;
+        }
+        .wrap-input{
+            float: left;
+            
+        }
+        .wrap-input input{display: block; width: 150px; margin-bottom: 5px;}
+        .wrap-control button{float: right;}
+       
+        .box1{
+            width:500px;
+            margin: 0 auto;
+            border: 1px solid #777;
+             position:relative;
+            padding: 10px;
+            padding-bottom: 50px;}
+
+        .img{position: absolute;
+        left:10px;
+        top:10px;}
+        .img img{width: 50px;}
+        .box1 button{float: right;}
+        .img strong{padding-right: 30px;}
+    </style>
+</head>
+<body>
+    <div class="wrap">
+    <div class="wrap-img"><!-- 이미지영역 -->
+        <img src="img/1.png" >
+    </div>
+
+    <div class="wrap-content">
+        <textarea rows="10" placeholder="댓글등록"></textarea>
+        <!-- 컨텐츠영역 -->
+    </div>
+
+    <div class="wrap-control">
+        <div class="wrap-input">
+            <input type="text">
+            <input type="text">
+        </div>
+        <button type="button">등록하기</button>
+        </div>
+    </div>
+            <div class="box1">
+               
+                <div class="img">
+                    <img src="img/1.png"></div>
+
+            <div  class=wrap-control>
+            <div class="wrap-input">
+                <strong>글제목</strong>
+                <small>내용</small>
+            </div>
+            <button>삭제</button>
+            <button>수정</button>
+        </div> 
+        </div>
+<!-- 버튼영역 -->
+   
+
+</div>
+</body>
+</html>

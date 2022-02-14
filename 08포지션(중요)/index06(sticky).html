@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          *{margin: 0;padding: 0; list-style: none;}
+        body{height: 1000px; background-color: aqua;}
+        header{position: fixed;left: 0; top: 0; width: 100%;}/* fixed예제  */
+        .logo{
+            text-align: center;
+            width: auto;
+            background-color: aliceblue;
+        }
+        .menu{background-color: black; text-align: center;}
+        .menu ul li{display:inline}
+        .menu ul li a{
+           
+            display: inline-block;
+            width: 50px;
+            height:50px;
+            color: aliceblue;
+            text-decoration: none;
+            line-height: 50px;
+            padding: 0 10px;
+        }
+        .munu ul li a:hover{background-color: #999;}
+
+        .inner1{height: 500px; background-color: bisque;}
+        .inner2{
+            /* 
+            1.sticky 속성을 사용하면 top bottom left right중 하나를 꼭 필수적으로 넣습니다.
+            2.부모 태그에 overflow속성이 있으면 동작을 하지 않습니다. 
+            3.top 속성에는 스크롤이 이동됬을때 fixed되는 지점을 기록합니다. 
+            */
+           border: 1px solid #777;
+            background-color: white;
+            position: sticky;
+            top: 0px;
+            left: 0;
+            height: 150px;
+            
+        }
+        .inner3{height: 1500px; background-color: chartreuse;}
+        .box .inner2 label{
+            border: 1px solid #777;
+             width: 100px;
+             height: 100px;
+             text-align: center;
+             margin: 0 auto;
+
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/1.png" alt="log">
+        </div>
+        <nav class="menu"
+        >
+            <ul>
+                <li>
+                    <li><a href="#">메뉴</a></li>
+                    <li><a href="#">메뉴</a></li>
+                    <li><a href="#">메뉴</a></li>
+                    <li><a href="#">메뉴</a></li>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="content">
+        <div class="inner1">내용</div>
+        <div class="inner2">
+            
+            <ul class="box">          
+            <label >1qjs</label>
+            <label >1qjs</label>
+            <label >1qjs</label>
+
+        </ul>
+
+        </div>
+        <div class="inner3">내용</div>
+    </section>
+</body>
+</html>
