@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section {overflow: hidden; width:  500px; margin: 0 auto;}
+        .box{width: 25%; float: left; background-color: bisque; height: 100px;}
+        .pos{
+            background-color: aqua;
+            position: absolute; /* 부모요소 기반으로 띄운다, 아무것도 적지않으면 바디태그로 기준점이 잡힌다. 
+            (부모요소 기반으로 z축으로 올린다(relative 를 기준으로 배치(없다면 body기준)올라간다)) */
+            right: 10px;
+            top: 10px;    
+        }
+    </style>
+</head>
+<body>
+    <!-- section, .box기준으로 relative를 배치해서 확인 -->
+    <section style="position: relative;">
+        <div class="box">박스</div>
+        <div class="box">박스</div>
+        <div class="box">박스</div>
+        <div class="box">
+            박스
+        <div class="pos">포지션</div>
+            
+        </div>
+    </section>
+</body>
+</html>
