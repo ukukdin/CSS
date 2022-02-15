@@ -61,10 +61,24 @@ html, body{font-family: 'Oxygen', sans-serif;}
     background-color: black;
     color: white;
 }
-.tab-content ul li a{display: block; padding: 10px; overflow: hidden;}
-.tab-content ul li a span {display: block; float: left;}
 .tab-content ul li{border: 1px solid #777}
-.tab-content ul li a .text{  padding-left: 10px;}
-.box{border: 1px solid #777; width: 960px; height: 160px; margin: 0 auto;
+.tab-content ul li a{display: block; padding: 10px; overflow: hidden;}
+.tab-content ul li a span {display: block; float: left; }
+.tab-content ul li a .text {display: block; float: left; padding-left: 10px; }
+
+
+.tab-content ul li a .text>strong{width: 120px; font-size :15px; white-space: nowrap; text-overflow: ellipsis; overflow:hidden; display:block;} 
+
+
+
+
+
+
+footer{
+    border: 1px solid #777;
+     width: 960px; height: 160px; 
+    margin: 0 auto; overflow: hidden; 
+    padding:10px; text-align: center; 
+    box-sizing: border-box;
 }
-.box .main_article1{border: 1px solid #777;}
+/* .box .main_article1 {float: left; padding: 20px;} */
