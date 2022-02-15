@@ -8,7 +8,7 @@
 <style>
     *{margin: 0; padding: 0; list-style: none;}
     body{height: 1000px; background-image: url("img/bg.png"); }
-    header{position: fixed; width: 100%; left: 0; top: 0;}
+    header{ width: 100%; left: 0; top: 0;}
     .logo{
         text-align: center;
        margin: 20px;
@@ -25,27 +25,29 @@
         padding: 0 10px;
     }
     .box{
-        border: 1px solid rgb(253, 253, 253);
-        background-color: rgb(248, 248, 248);
-        width: 100%;
-        margin-top: 184px;
-        
-    }
-    
-   .img {
-        width: 1000px;
+        border: 1px solid white;
+        background-color: white;
         margin: 0 auto;
-        text-align: center;
+        padding: 0;
+    overflow: hidden;
+width: 2700px;}
+.box .item{
+border: 1px solid white; margin: 0 auto; text-align: center;}
+.box .item li{width: 300px; margin: 40px auto;  display: inline-block; text-align: center;}
         
-    }
-    .img ul li{
-        text-align: center;
-        width: 25%;
-        margin: 40px;
-    }
+  
+  
    
- 
     
+   .center{overflow: hidden;
+width: 2400px;
+text-align: center;
+margin: 0 auto;}
+
+   
+  
+    
+   
        
    
 
@@ -73,8 +75,8 @@
     </header>
 
     <div class="box">
-        <div class="img"> 
-            <ul>
+       
+            <ul class="item">
                 <li><img src="img/item01.png" alt=""><br>
                 iPhone</li>
                 <li><img src="img/item02.png" alt=""><br>
@@ -87,5 +89,26 @@
         </div>
         
     </div>
+    <section class="center">
+        <div><img src="img/ipad.jpg" alt="">
+        <img src="img/side01.png" alt="">
+        
+            <img src="img/side02.png" alt="">
+            <aside class="left"> 
+            </div>
+        </aside>
+    </div>
+            
+        </div>
+            <div class="right-side">
+                <aside class="right">
+                    <img src="img/side03.png" alt=""><br>
+                    <br>
+                    <img src="img/side04.png" alt="">
+                </aside>
+                
+            </div>
+
+    </section>
 </body>
 </html>

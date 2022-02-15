@@ -65,6 +65,8 @@ html, body{font-family: 'Oxygen', sans-serif;}
 .tab-content ul li a span {display: block; float: left;}
 .tab-content ul li{border: 1px solid #777}
 .tab-content ul li a .text{  padding-left: 10px;}
-.box{border: 1px solid #777; width: 960px; height: 160px; margin: 0 auto;
-}
-.box .main_article1{border: 1px solid #777;}
+.box{width: 1580px; margin: 0 auto;}
+.box{overflow: hidden; box-sizing: border-box;}
+.box1{border: 1px solid #777; 
+    width: 960px; height: 100px;  margin: 0 auto; padding: ;} 
+/* .box box1{width: 960px; margin: 0 auto; float: left;} */
