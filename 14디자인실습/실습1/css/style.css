@@ -112,28 +112,26 @@ background-color:  linear-gradient(to right, rgb(0, 0, 0)0%,rgb(0, 0, 0)100%)
 /* a호버시 하위에 .hover 를 나타냄 */
 }
 .prod-link:hover > .hover{
-    opacity: 1;
-}
-.main{
-    border: 1px solid #777;
-    
-    text-align: center;
-    display: block;
-   
-   
+    opacity: 1;}
 
-}
 .main{
     border: 1px solid #fff;
     margin-bottom: 30px;
-    width: 20%;
+    padding: 5px;
     box-sizing: border-box;
+    
+}
+@media (min-width: 1200px){
+    .bloged> .col-lg-2 {
+        width: 20%;
+    }
 }
 .inner{
     border: 1px solid rgb(240, 226, 226);
     position: relative;
     box-sizing: border-box;
     text-align: center;
+    
 }
 .inner .blog-content{
     padding: 15px 12px;
@@ -144,11 +142,11 @@ background-color:  linear-gradient(to right, rgb(0, 0, 0)0%,rgb(0, 0, 0)100%)
     line-height: 20px;
     font-weight: bold;
 }
-
+.inner .img{text-align: center;}
 
 .blog-info{
     padding: 15px 12px;
-    position: relative;
+   
     overflow: hidden;
     margin-top: 20px;
     box-sizing: border-box;
@@ -161,7 +159,7 @@ background-color:  linear-gradient(to right, rgb(0, 0, 0)0%,rgb(0, 0, 0)100%)
 .blog-info .right{
     float: right;
 }
-.inner:hover .blog-hover{
+.inner:hover > .blog-hover{
     opacity: 1;
 }
 .inner  .blog-hover{
@@ -181,5 +179,6 @@ background-color: rgba(0,0,0,.8);
     color: #fff;
     font-size: 15px;
     line-height: 20px;
+
 
 }

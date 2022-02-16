@@ -14,16 +14,121 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/common.css">
 </head>
+ 
+<header class="custom-header">
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
 
+            <a class="navbar-brand">
+              <img src="img/logo.svg" alt="">
+            </a>
+
+
+
+
+
+
+            <a class="navbar-brand" href=""><img src="img/logo.svg" width="30"></a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">메인</a></li>
+            
+              <li><a href="#">글</a></li>
+              <li><a href="#">Q/A</a></li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">목록
+                <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Page 1-1</a></li>
+                  <li><a href="#">Page 1-2</a></li>
+                  <li><a href="#">Page 1-3</a></li>
+                </ul>
+              </li>
+            </ul>
+
+
+            <!-- 우츨 로그인 버튼 -->
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+              <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            </ul>
+            <!-- 검색창 (클래스 이름을 navbar-right 로 변경) -->
+            <form class="navbar-form navbar-right" action="#">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="내용을 검색하세요">
+                <div class="input-group-btn">
+                  <button class="btn btn-default" type="submit">검색
+                    </button>
+                </div>
+              </div>
+            </form>
+
+
+          </div>
+        </div>
+      </nav>
+</header>
+<article>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 slide-list">
+
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#myCarousel" data-slide-to="1"></li>
+                      <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                  
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                      <div class="item active">
+                        <img src="img/1.jpg" alt="clothes">
+                      </div>
+                  
+                      <div class="item">
+                        <img src="img/2.jpg" alt="shampoo">
+                      </div>
+                  
+                      <div class="item">
+                        <img src="img/3.png" alt="noodle">
+                      </div>
+                    </div>
+                  
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                      <span class="glyphicon glyphicon-chevron-left"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+
+            </div>
+        </div>
+    </div>
+
+</article>
 <body>
     <section>
         <div class="container">
             <h3>블로그 그리드 레이아웃</h3>
 
 
-            <div class="row">
+            <div class="row bloged">
 
                 <div class="col-lg-2 col-mid-4 col-sm-6 col-xs-12 main">
+                    
                     <div class="inner">
                         <a href="">
                             <img src="img/blog1.jpg">
@@ -168,5 +273,31 @@
                 </div>
     </section>
 </body>
-
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 col-sm-12">
+                <div class="copyright">
+                    <a href="#">
+                        <img src="img/logo.svg" width="30"></a>
+                        bootstrap| 대표자 : 홍길동 | E-MAIL : ingo@ingo.com<br>
+                        사업자번호 :123-45-89415 | 개인정보보호책임자 : 홍길동 |통신판매업 : 2019-서울강남-0001<br>
+                        주소 : 서울시 강남구
+                        <address>✨Bootstrap. All RIGHT RESERVED</address>
+                        
+                </div>
+            </div>
+            <div class="col-md-5 col-sm-12">
+                <div class="footer-menu">
+                <ul class="copyright-menu">
+                    <li><a href="">고객센터</a></li>
+                    <li><a href="">이용약관</a></li>
+                    <li><a href="">개인정보취급방침</a></li>
+                    <li><a href="">문의사항</a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+</footer>
 </html>
