@@ -28,16 +28,12 @@
     height: 38px;
     display: block;
     
+    
     border: 1px solid #777;}
 .menu li {
     list-style: none;
     display: block;
     background-color: #fff;
 }
-.menu .fl_left{
-    float: left;
-}
-.menu li {
-    float: right;
-   
-}
+.menu .fl_left{float: left;}
+.menu li { float: right;}
