@@ -1,0 +1,43 @@
+.main{
+    border: 1px solid #777;
+    width: 100%;
+    min-width: 1048px;
+    height: 192px;
+}
+.header-wrap{
+    border: 1px solid #777;
+    width: 1080px;
+    height: 192px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: block;
+}
+.fixed{
+    border: 1px solid #777;
+    width: 1008px;
+    height: 137px;
+    margin: 0 auto;
+    padding-right: 0 20px;
+    display: block;
+}
+
+.menu{
+    position: relative;
+    margin: 0 auto;
+    width: 1008px;
+    height: 38px;
+    display: block;
+    
+    border: 1px solid #777;}
+.menu li {
+    list-style: none;
+    display: block;
+    background-color: #fff;
+}
+.menu .fl_left{
+    float: left;
+}
+.menu li {
+    float: right;
+   
+}

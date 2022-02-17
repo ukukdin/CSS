@@ -1,0 +1,34 @@
+
+.custom-header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 20;
+}
+
+
+
+.custom-header .navbar{
+    margin-bottom: 0;
+border-radius: 0;}
+
+    .custom-header .navbar-inverse{
+        background-color: #282a35;
+    }
+    .custom-header .navbar-inverse.navbar-nav> .active >a {
+        /* .class클래스 하위 a태그 */
+        background-color: #464852;
+        color: whiete
+    }
+   
+    .custom-header .navbar-inverse .navbar-nav > li>a:hover,
+    .comtom_hearder .navbar-inverse .navbar-nav li>a:focus{
+        background-color: #464852;
+    }
+    .custom-header .navbar-inverse.navar-nav>li>a{
+        color: #fff;
+    }
+    .custom-header .navbar-brand{
+        padding: 10px 20px;
+    }
