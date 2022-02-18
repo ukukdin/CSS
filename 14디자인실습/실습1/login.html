@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<header class="custom-header">
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand">
+                    <img src="img/logo.svg">
+                </a>
+
+
+
+
+
+
+                <a class="navbar-brand" href=""><img src="img/logo.svg" width="30"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">메인</a></li>
+
+                    <li><a href="#">글</a></li>
+                    <li><a href="#">Q/A</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">목록
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Page 1-1</a></li>
+                            <li><a href="#">Page 1-2</a></li>
+                            <li><a href="#">Page 1-3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+
+                <!-- 우츨 로그인 버튼 -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+                <!-- 검색창 (클래스 이름을 navbar-right 로 변경) -->
+                <form class="navbar-form navbar-right" action="#">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="내용을 검색하세요">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="submit">검색
+                            </button>
+                        </div>
+                    </div>
+                </form>
+
+
+            </div>
+        </div>
+    </nav>
+</header>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="title-box">로그인</div>
+            <div class=" col-xs-12 form-login">
+
+
+                <div class="col-md-6"><img class="img1" src="img/login_background.png" alt=""></div>
+                <div class="col-md-6">
+                    <form class="login-form-inner">
+                        <div class="form-group">
+                            <label> 아이디</label>
+                            <input type="text" class="form-control" placeholder="아이디">
+                        </div>
+                        <div class="form-group">
+                            <label> 비밀번호</label>
+                            <input type="password" class="form-control" placeholder="비밀번호">
+                        </div>
+                        <div class="form-group">
+                            <button type="button" class="btn btn-info btn-block">로그인</button>
+                            <button type="button" class="btn btn-primary btn-block">회원가입</button>
+                            <button type="button" class="kakao btn-info btn-block">카카오로그인</button>
+
+                        </div>
+                </div>
+                </form>
+            </div>
+        </div>
+
+    
+    </div>
+</body>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 col-sm-12">
+                <div class="copyright">
+                    <a href="#">
+                        <img src="img/logo.svg" width="30"></a>
+                    bootstrap| 대표자 : 홍길동 | E-MAIL : ingo@ingo.com<br>
+                    사업자번호 :123-45-89415 | 개인정보보호책임자 : 홍길동 |통신판매업 : 2019-서울강남-0001<br>
+                    주소 : 서울시 강남구
+                    <address>✨Bootstrap. All RIGHT RESERVED</address>
+
+                </div>
+            </div>
+            <div class="col-md-5 col-sm-12">
+                <div class="footer-menu">
+                    <ul class="copyright-menu">
+                        <li><a href="">고객센터</a></li>
+                        <li><a href="">이용약관</a></li>
+                        <li><a href="">개인정보취급방침</a></li>
+                        <li><a href="">문의사항</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</html>
